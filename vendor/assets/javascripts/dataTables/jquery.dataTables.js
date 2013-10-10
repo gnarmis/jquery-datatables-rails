@@ -2080,7 +2080,7 @@
 
 			var nFilter = document.createElement( 'div' );
 			nFilter.className = oSettings.oClasses.sFilter;
-			nFilter.innerHTML = '<label>'+sSearchStr+'</label>';
+			nFilter.innerHTML = '<label class="col-md-5">'+sSearchStr+'</label>';
 			if ( !oSettings.aanFeatures.f )
 			{
 				nFilter.id = oSettings.sTableId+'_filter';
@@ -2768,7 +2768,7 @@
 				nLength.id = oSettings.sTableId+'_length';
 			}
 			nLength.className = oSettings.oClasses.sLength;
-			nLength.innerHTML = '<label>'+oSettings.oLanguage.sLengthMenu.replace( '_MENU_', sStdMenu )+'</label>';
+			nLength.innerHTML = '<label class="col-md-5">'+oSettings.oLanguage.sLengthMenu.replace( '_MENU_', sStdMenu )+'</label>';
 
 			/*
 			 * Set the length to the current display length - thanks to Andrea Pavlovic for this fix,
