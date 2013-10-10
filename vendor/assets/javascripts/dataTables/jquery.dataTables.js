@@ -11458,7 +11458,7 @@
 		"sFilter": "dataTables_filter",
 		"sInfo": "dataTables_info",
 		"sPaging": "dataTables_paginate paging_", /* Note that the type is postfixed */
-		"sLength": "dataTables_length",
+		"sLength": "dataTables_length form-group",
 		"sProcessing": "dataTables_processing",
 
 		/* Sorting */
