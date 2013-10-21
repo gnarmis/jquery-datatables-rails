@@ -2741,7 +2741,7 @@
 
 			/* This can be overruled by not using the _MENU_ var/macro in the language variable */
 			var sName = 'name="'+oSettings.sTableId+'_length"';
-			var sStdMenu = '</label><div class="col-md-3"><select size="1" '+sName+' class="form-control" placeholder=".col-md-3">';
+			var sStdMenu = '</label><div class="col-md-2"><select size="1" '+sName+' class="form-control" placeholder=".col-md-2">';
 			var i, iLen;
 			var aLengthMenu = oSettings.aLengthMenu;
 
@@ -2760,7 +2760,7 @@
 					sStdMenu += '<option value="'+aLengthMenu[i]+'">'+aLengthMenu[i]+'</option>';
 				}
 			}
-			sStdMenu += '</select></div><label class="col-md-8">';
+			sStdMenu += '</select></div><label class="col-md-9">';
 
 			var nLength = document.createElement( 'div' );
 			if ( !oSettings.aanFeatures.l )
