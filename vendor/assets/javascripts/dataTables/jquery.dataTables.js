@@ -2768,7 +2768,7 @@
 				nLength.id = oSettings.sTableId+'_length';
 			}
 			nLength.className = oSettings.oClasses.sLength;
-			nLength.innerHTML = '<label class="col-md-12">'+oSettings.oLanguage.sLengthMenu.replace( '_MENU_', sStdMenu )+'</label>';
+			nLength.innerHTML = '<label class="col-md-5">'+oSettings.oLanguage.sLengthMenu.replace( '_MENU_', sStdMenu )+'</label>';
 
 			/*
 			 * Set the length to the current display length - thanks to Andrea Pavlovic for this fix,
@@ -11458,7 +11458,7 @@
 		"sFilter": "dataTables_filter",
 		"sInfo": "dataTables_info",
 		"sPaging": "dataTables_paginate paging_", /* Note that the type is postfixed */
-		"sLength": "dataTables_length form-group col-md-12",
+		"sLength": "dataTables_length form-group",
 		"sProcessing": "dataTables_processing",
 
 		/* Sorting */
